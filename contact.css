@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.background {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #040404;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    color: #fff;
+    padding: 0 8%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.background h1 {
+    font-size: 10vmin;
+    margin-top: 12%;
+}
+
+.background button {
+    background: #393939;
+    border: 0;
+    outline: none;
+    padding: 15px 35px;
+    color: #fff;
+    margin-top: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.indicator span {
+    display: inline-block;
+    background: #3a3a3a;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.indicator {
+    margin-top: 150px;
+}
+
+.indicator span.active {
+    background: #bfbfbb;
+
+}
+
+.container p h3 {
+    position: centre;
+    font-size: 10vmin;
+    margin-top: 30%;
+    color: #fff;
+    background-color: #040404;
+}
+
+.card {
+    background-color: #3a3a3a;
+    place-items: centre;
+    padding: 0 1em;
+    max-width: 60rem;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-color: #fff;
+}
+
+.card-text {
+    color: #fff;
+
+}
+
+.card-img-top {}
